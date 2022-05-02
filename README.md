@@ -1,2 +1,6 @@
 # Insulin-Calculator2-Meal-Glucose-Reading-and-Sliding-Scale-
 This is part 2 with more advanced features to this Insulin Calculator. This calculator will not only figure your insulin for your meal with the sliding scale: carb/ units of insulin ratio. The calculator incorporates your glucose reading in blood. This means whatever level the user's glucose level is the calculator will reconfigure the amount of insulin to take based on glucose levels, the amount of carb intake, and carbs/ unit ratio of insulin.
+
+The scale I used to determine whether to take less insulin or more, or just the amount for meal based on blood glucose levels was; If the levels were lower than 70 take 35 carbs off the total carbs to eat in meal.  The reason is when glucose levels are low the strategy is to intake 35 free carbs with no insulin for that to bring up glucose levels.  Then you can just take insulin for the rest of carbs.  The best way to do this is to normally intake 20 fast acting carbs, and the rest in slow acting carbs.
+Then if the levels were above 200 take 1 extra unit of insulin per 25 points after 200.
+I used the IF/elif/else functions to make this happen.  This allowed me to give constraints in the range of every 25 points higher above glucose levels of 200 you add 1 unit per 25 points.

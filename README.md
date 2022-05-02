@@ -1,0 +1,2 @@
+# Insulin-Calculator2-Meal-Glucose-Reading-and-Sliding-Scale-
+This is part 2 with more advanced features to this Insulin Calculator. This calculator will not only figure your insulin for your meal with the sliding scale: carb/ units of insulin ratio. The calculator incorporates your glucose reading in blood. This means whatever level the user's glucose level is the calculator will reconfigure the amount of insulin to take based on glucose levels, the amount of carb intake, and carbs/ unit ratio of insulin.

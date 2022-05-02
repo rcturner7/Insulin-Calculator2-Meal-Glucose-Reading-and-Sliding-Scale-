@@ -60,7 +60,7 @@ elif blood_sugar >= 600:
     total_units = units_of_insulin + 17
     print(f"You need to take {total_units} units of insulin. Enjoy your meal.")
 else:
-    print(total_units)
+    print(f"You need to take {total_units} units of insulin. Enjoy your meal.")
     
 
 
